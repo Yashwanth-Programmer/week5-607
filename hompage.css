@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Strike', sans-serif;
+
+}
+body{
+    background-color: white;
+}
+.header_container{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    z-index:200;
+    background-color:transparent;
+}
+.navbar a{
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+.navbar a:hover
+{
+    color: aqua;
+}
+.name{
+    font-size: 35px;
+    color: black;
+    font-weight: 10;
+}
